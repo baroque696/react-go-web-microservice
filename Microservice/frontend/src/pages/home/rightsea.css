@@ -1,0 +1,52 @@
+.ctenstyle{
+  height: 486px;
+  width: 250px;
+  position: absolute;
+  background-color: rgb(108, 126, 129, .8);
+}
+
+.llstyle{
+  display: block;
+  font-size: 14px;
+  color: white;
+  height: 42px;
+  line-height: 42px;
+  text-decoration:none;
+  padding-left: 30px;
+}
+
+
+.llstyle:hover{
+  
+  color: white;
+  background-color: rgb(255, 103, 0);
+}
+
+.ctenstyle li{
+  line-height: 1;
+  list-style:none
+}
+
+.goodsinfo{
+  height: 440px;
+  overflow: hidden;
+  width: 920px;
+  border: 1px solid rgb(224, 224, 224);
+  background-color:white;
+  position: absolute;
+  left: 250px;
+  top: 0px;
+  transition: height 0.3s;
+  
+}
+
+
+.limian{
+  text-decoration: none;
+  color: black;
+}
+
+.limian:hover{
+  color: rgb(255, 103, 0);
+}
+

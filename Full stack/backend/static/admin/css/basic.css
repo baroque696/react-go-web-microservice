@@ -1,0 +1,160 @@
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.aside h4{
+	margin-top: 0px;
+	font-size: 15px;
+	cursor: pointer;
+	
+	position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;    
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+    
+    border-bottom: 2px solid #3a82bf;
+}
+
+.aside .list-group-item:first-child{
+
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.aside .list-group-item:last-child{	
+	border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.aside .list-group-item a{
+	
+	display: inline-block;
+	width: 100%;
+	text-indent: 10px;
+	color: #555
+}
+.navbar-header{   
+    text-align: center;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:#f9f9f9;
+}
+.navbar-inverse{
+    background:#46473F;
+}
+
+
+table .th{
+	
+	background: #EEEEEE;
+}
+
+ .input-form li{
+    margin: 5px 0px;
+}
+
+input[type=file]{
+ 	display: inline;
+}
+
+
+.col-sm-2,.col-sm-10{
+	padding-left: 0px;
+}
+
+
+.navbar{
+	border-radius: 0px;
+}
+.logo{
+	height:48px;
+}
+
+.fr{
+    float: right;
+}
+.clear::after{
+
+    clear: both;
+    content: '';
+
+    height: 0px;
+    display: block;
+
+
+}
+
+/*商品详情页面布局*/
+.tab-content{
+    position: relative;
+    top: -12px;
+    padding: 20px;
+    background: #fff;
+}
+.input-form li{
+    padding: 6px 0px;
+}
+
+.input-form li input[type="text"],.input-form li input[type="password"],.input-form li textarea{
+    width: 300px;
+}
+.nav-tabs{
+    background: #eee;
+    padding-left: 10px;
+}
+.goods-content{
+    border: 1px solid #eee;
+}
+
+.input-form li span{
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
+}
+/* 解决webuploader按钮失效的方法 */
+#photoUploader div:nth-child(2){width:100%!important;height:100%!important;}   
+
+#photoUploader{
+    margin: 20px auto;
+    width: 200px;
+
+}
+
+.goods_image_list {
+    border:1px solid #eee;
+
+}
+.goods_image_list li{
+    width:  120px;   
+    float: left;    
+    margin-right: 20px;
+    border-bottom: none;
+    position: relative;
+    text-align: center;
+}
+.goods_image_list li img{
+    width:  120px;   
+}
+
+/*修改图库的布局*/
+.goods_image_list li .color_list{
+    margin-top: 20px;
+}
+
+.goods_image_list li .goods_image_delete{
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    background: url('/static/diyUpload/images/x_alt.png') no-repeat center center;
+    top: -20px;
+    right: -25px;
+    cursor: pointer;
+}
+
+#pagination{
+    float: right;
+}

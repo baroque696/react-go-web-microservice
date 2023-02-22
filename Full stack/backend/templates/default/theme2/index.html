@@ -1,0 +1,23 @@
+<!-- 相当于给模板定义一个名字 define end 成对出现-->
+{{ define "default/index.html" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/base.css">
+</head>
+<body>
+
+    <h1>我是一个首页--index</h1>
+    <br>
+    
+    {{.msg}}
+    <br>
+    {{UnixToTime .t}}
+
+</body>
+</html>
+{{ end }}

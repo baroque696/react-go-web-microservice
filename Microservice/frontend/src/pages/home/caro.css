@@ -1,0 +1,21 @@
+.lunbo{
+  position: absolute;
+  height: 440px;
+  width: 1295px;
+  z-index:-5;
+}
+
+.carousel-control-prev-icon {
+  position: absolute;
+  left: 280px;
+  
+}
+
+.carousel-control-prev-icon:hover {
+  background-color: rgb(127, 127, 127);
+  color: white;
+}
+.carousel-control-next-icon:hover{
+  background-color: rgb(127, 127, 127);
+  color: white;
+}

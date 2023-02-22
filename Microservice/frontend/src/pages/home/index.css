@@ -1,0 +1,69 @@
+.constyle{
+  height: 100px;
+ 
+}
+
+.costyle{
+  position: relative;
+  top: 20px;
+}
+
+.csstyle {
+  
+  font-size: 16px;
+  position: relative;
+  top: 35px;
+  margin: 15px;
+  
+}
+
+.seestyle{
+  position: relative;
+  top: 35px;
+}
+
+.lenshui{
+  width: 1320px;
+  position: absolute;
+  top: 630px;
+}
+
+.backtop {
+  width: 70px;
+  height: 400px;
+
+  position: fixed;
+  bottom: 5px;
+  right: 0;
+  
+}
+
+.lol{
+  
+  color: #707070;
+  text-decoration: none;
+  
+}
+.lol:hover{
+  color: rgb(255, 103, 2);
+}
+
+.backtop li{
+  border: 0.5px solid #e6e6e6;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  list-style:none
+}
+
+.lol span{
+  line-height:40px;
+  
+  text-align: center;
+  
+}
+
+.aa{
+  margin-left: 13px;
+}
+
+

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package frontlogin;
+
+option go_package = "./proto/frontlogin";
+
+service Frontlogin {
+	rpc Frontlogin(FrontloginRequest) returns (FrontloginResponse) {}
+	
+}
+
+message FrontloginRequest {
+	string phone = 1;
+	string password = 2;
+}
+
+message FrontloginResponse {
+	bool success = 1;
+}
+

@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "./proto/user";
+
+service User {
+	rpc GetGood(GetGoodRequest) returns (GetGoodResponse) {}
+	
+}
+
+message Goods {
+	
+	string title = 1;
+	float price = 2;
+	string goodsImg =3;
+}
+
+message GetGoodRequest {
+	string id = 1;
+}
+
+message GetGoodResponse {
+	repeated Goods goodslist = 1;
+	bool success = 2;
+}
+
